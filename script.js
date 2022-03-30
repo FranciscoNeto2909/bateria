@@ -21,9 +21,7 @@ elem1.addEventListener("click",()=>{
     const audio = document.querySelector("#s-keyq")
     audio.play()
     audio.currentTime = 0
-
 })
-
 elem2.addEventListener("click",()=>{
     const audio = document.querySelector("#s-keyw")
     audio.play()

@@ -5,25 +5,36 @@
 }
 body{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
+    background-color: #131313;
+}
+h1{
+    margin-bottom: 10px;
+    color: #fff;
 }
 .container{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px;
     background-color: chartreuse;
 }
 .elem{
-    height: 70px;
-    width: 70px;
-    margin: 10px;
-    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+    border: 2px solid black;
     border-radius: 50%;
     background-color: #fff;
+}
+.elem:active{
+    border: 1px solid chartreuse;
 }
